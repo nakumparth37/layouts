@@ -1,0 +1,24 @@
+.container{
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+.main{
+    width: 75%;
+    justify-content: center;
+}
+
+.title{
+    background-color:royalblue;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.details{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Students{
+    padding: 20px;
+}
