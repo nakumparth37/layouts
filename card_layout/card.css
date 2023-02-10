@@ -1,0 +1,18 @@
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction:row;
+}
+
+.student_info{
+    color: royalblue;
+}
+
+.univercity_info{
+    
+}
