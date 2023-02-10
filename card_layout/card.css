@@ -10,8 +10,6 @@
 
 .card{
     background-color: blanchedalmond;
-    display: flex;
-    flex-direction:row;
     justify-content: space-between;
     width: 300px;
     padding: 10px;
@@ -23,16 +21,23 @@
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.459);
 }
 
-.student_info{
+.card_info{
+display: flex;
+justify-content: space-between;
+}
+
+.student_info strong{
     color: royalblue;}
 
 .student_info img{
     border-radius: 50%;
     width:100px ;
     height: 100px;
+    border: 2px solid royalblue;
 }
 
-.univerctiy_info{
+
+.univerctiy_info strong {
     color: royalblue;
 }
 
@@ -40,4 +45,9 @@
     margin-top: 200px;
     width: 250px;
     height: 250px;
+}
+
+.more{
+    color:rgba(0, 0, 0, 0.555);
+    padding-left: 35%;
 }
