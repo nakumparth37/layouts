@@ -3,16 +3,41 @@
     padding: 0;
 }
 
+.card_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .card{
     background-color: blanchedalmond;
     display: flex;
     flex-direction:row;
+    justify-content: space-between;
+    width: 300px;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.container .card_container .card:hover{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.459);
 }
 
 .student_info{
+    color: royalblue;}
+
+.student_info img{
+    border-radius: 50%;
+    width:100px ;
+    height: 100px;
+}
+
+.univerctiy_info{
     color: royalblue;
 }
 
-.univercity_info{
-    
+.univercity_info img{
+    margin-top: 200px;
+    width: 250px;
+    height: 250px;
 }
