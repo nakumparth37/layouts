@@ -43,7 +43,7 @@ body {
     padding: 1rem;
 }
 
-.nav_bar li a:hover{
+.nav_bar li a:hover {
     background-color: white;
     color: black;
 }
@@ -76,7 +76,8 @@ footer {
     text-align: center;
     background-color: rgb(82, 82, 82);
     color: white;
-    margin-top: 3rem;
-    padding: 0.4rem;
-    font-size: larger;
+    margin: 0.1rem;
+    padding-top:1px ;
+    padding-bottom:1px ;
+    /* bottom: 0; */
 }
