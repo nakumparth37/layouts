@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nav-work Layout</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/Assignemt_layout/layout.css">
+  <link rel="stylesheet" href="/Assignemt_layout/layout_Style/Page_layout.css">
+  <link rel="stylesheet" href="/Assignemt_layout/layout_Style/Html_assig1.css">
+</head>
+
+<body>
+  <div class="container">
+    <!-- // Header Section //  -->
+    <header class="app_header">
+      <p class="logo"><img src="/Assignemt_layout/Layout Pages/imges/logo.jpeg" alt="LOGO"></p>
+      <nav>
+        <ul class="nav_bar">
+          <li><a href="/Assignemt_layout/index.html">Home</a></li>
+          <li><a href="/Assignemt_layout/Layout Pages/Html/index.html">HTML</a></li>
+          <li><a href="/Assignemt_layout/Layout Pages/CSS/index.html">CSS</a></li>
+          <li><a href="/Assignemt_layout/Layout Pages/Bootstrep/index.html">BOOTSTREP</a></li>
+          <li><a href="/Assignemt_layout/Layout Pages/Javascript/index.html">JAVASCRIPT</a></li>
+          <li><a href="/Assignemt_layout/Layout Pages/Jquerey/index.html">JQUEREY</a></li>
+          <li><a href="/Assignemt_layout/Layout Pages/Mini_project/index.html">MINI-PROJECT</a></li>
+          <li><a href="/Assignemt_layout/Layout Pages/Sql/index.html">SQL</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- // Contect conteanier//  -->
+    <div class="main_content">
+      <div class="side_bar">
+        <ul>
+          <li>Day-1 <ul>
+              <li>Assignemts
+                <ul>
+                  <li> <a href="/Assignemt_layout/Layout Pages/Html/Day-1/Assignment/Assignment1.html">Assignment-1</a> </li>
+                  <li> <a href="/Assignemt_layout/Layout Pages/Html/Day-1/Assignment/Assignment2.html">Assignment-2</a> </li>
+                </ul>
+
+              </li>
+              <li>Practice 
+                <ul>
+                  <li> <a href="/Assignemt_layout/Layout Pages/Html/Day-1/Practice/Practice1.html">Practice-1</a> </li>
+                  <li> <a href="/Assignemt_layout/Layout Pages/Html/Day-1/Practice/Practice2.html">Practice-2</a> </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="content">
+        <h1 style="text-align:center;">Employee Details Form</h1>
+        <hr>
+        <div style="background-color: rgb(110, 211, 252);
+        color: white; margin: 0.5rem; ">
+          <h1>Add Employee</h1>
+        </div>
+        <form name="Employee_detials" onsubmit="return validateForm()" id="detailes_form">
+
+ 
+          <label for="Employee_Name"><strong>Employee's Name :-</strong> </label>
+          <input type="text" name="Employee_Name" placeholder="Enter your Name" id="E_Name"> <br>
+
+          <label for="Employee_Age"><strong>Employee's Age :-</strong> </label>
+          <input type="number" name="Employee_Age" placeholder="Enter your Age" id="E_age"><br>
+
+          <div id="gender" >
+              <label for="Employee_Name"><strong>Gender :-</strong> </label>
+                <input type="radio" name="Employee_Gender" value="Male">Male
+                <input type="radio" name="Employee_Gender" value="Femela">Female
+                <input type="radio" name="Employee_Gender" value="Other">Other
+          </div>
+
+
+          <label for="Employee_designation"><strong>Employee's designation:-</strong> </label>
+          <select name="Employee_designation" id="designation">
+              <optgroup label="designation">
+                  <option value="Select your designation">Select your designation</option>
+                  <option value="Intern Software Developer">Intern Software Developer</option>
+                  <option value="Junior Software Developer">Junior Software Developer</option>
+                  <option value="Software Developer">Software Developer</option>
+                  <option value="Software Engineer">Software Engineer</option>
+                  <option value="Senior Software Engineer/Senior Software Developer">Senior Software Engineer/Senior
+                      Software Developer</option>
+                  <option value="Principal Software Engineer">Principal Software Engineer</option>
+                  <option value="Technical Lead/Engineering Lead/Team Lead">Technical Lead/Engineering Lead/Team Lead
+                  </option>
+                  <option value="Engineering Project Manager/Engineering Manager">Engineering Project
+                      Manager/Engineering
+                      Manager</option>
+                  <option value="Software Architect">Software Architect</option>
+                  <option value="Chief Architect">Chief Architect</option>
+                  <option value="VP of Engineering/Director of Engineering">VP of Engineering/Director of Engineering
+                  </option>
+                  <option value="VP of Marketing">VP of Marketing</option>
+                  <option value="Product Manager">Product Manager</option>
+              </optgroup>
+          </select><br>
+
+          <label for="Employee_Salary"><strong>Salay :-</strong></label>
+          <input type="number" name="Employee_Salary" placeholder="Enter your Salay" id="salary"><br>
+
+          <label for="Employee_Location"><strong>Location :-</strong></label>
+          <input type="text" list="location_list" id="location" placeholder="Enter or select your location">
+          <datalist id="location_list">
+              <option label="Ahemdabad" value="Ahemdabad"></option>
+              <option label="Jamngar" value="Jamngar"></option>
+              <option label="Surat" value="Surat"></option>
+              <option label="Gandhinager" value="Gandhinager"></option>
+              <option label="Junagdh" value="Junagdh"></option>
+              <option label="Rajkot" value="Rajkot"></option>
+          </datalist><br>
+
+          <label for="Employee_Email_ID"><strong>Email ID :-</strong></label>
+          <input type="email" name="Employee_Email" placeholder="Enter your Email" id="email_id"><br>
+
+          <div class="data_number">
+            <label for="Date_of_Joining"><strong>Date of Joining :-</strong></label>
+            <input type="date" name="Date_of_Joining" placeholder="Enter Date of Joining" id="date_of_joining"><br>
+  
+            <label for="Contact_Number"><strong>Contact Number:-</strong></label>
+            <input type="number" name="Content" placeholder="Enter Date of Contact Number" id="contact"><br>
+          </div>
+
+
+          <input type="submit" value="Submit" onclick="get_info()" id="submit">
+      </form>
+      </div>
+
+    </div>
+
+
+</body>
+
+</html>

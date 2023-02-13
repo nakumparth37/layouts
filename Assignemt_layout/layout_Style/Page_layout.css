@@ -1,0 +1,41 @@
+.main_content{
+    height: 100%;
+    display: flex;
+    margin-top: 1rem;
+
+}
+
+.side_bar{
+    margin: 0.5rem;
+    width: 20%;
+    background-color: grey;
+    color: white;
+    height: 48rem;
+}
+
+.side_bar ul{
+    margin: 0.3rem;
+    margin-top: 1.5rem;
+}
+
+.side_bar ul li{
+    margin: 0.3rem;
+    padding: 0.1rem;
+
+}
+
+.side_bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.content{
+    width: 100%;
+    margin: 0.5rem;
+}
+.content img{
+    width:30%;
+    margin: 3rem;
+    margin-left: 30%;
+
+}

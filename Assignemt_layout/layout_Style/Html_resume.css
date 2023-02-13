@@ -1,0 +1,104 @@
+.contect{
+    font-family: arial, sans-serif;
+
+}
+
+h2 {
+    background-color: blueviolet;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+
+}
+
+ul {
+    list-style-type: square;
+}
+
+.resme_container {
+    display: flex;
+}
+
+#personl_info {
+    width: 45rem;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: royalblue;
+
+}
+
+#personl_info li {
+    color: #ffffff;
+}
+
+#personl_info h2 {
+    background-color: white;
+    color: royalblue;
+}
+
+#other_info {
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid royalblue;
+}
+
+#other_info h2 {
+    background-color: royalblue;
+
+}
+
+.Name {
+    font-size: x-large;
+    color: white;
+}
+
+.Name p {
+    font-size: large;
+}
+
+#contact p {
+    margin-left: 5px;
+}
+
+
+.skill p {
+    margin-left: 25px;
+    text-align: justify;
+}
+
+.skill h3 {
+    margin-bottom: 5px;
+    margin-left: 25px;
+    color: royalblue;
+}
+
+#about_me p {
+    text-align: justify;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border: 5px;
+    width: 50%;
+    margin-bottom: 5px;
+    margin-left: 25px;
+}
+
+th {
+    background-color: royalblue;
+    color: white;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #4169e13b;
+}

@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+}
+
+/* // Header Section //  */
+.app_header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(83, 83, 83);
+}
+
+.logo img{
+    width: 5rem;
+    margin-left: 3rem;
+    box-shadow: 0.1rem 0.1rem 1rem white;
+}
+
+.nav_bar{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-right: 3rem;
+}
+
+
+.nav_bar  li a{
+    margin-left: 1rem;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.nav_bar li  :hover{
+    background-color: white;
+    color: black;
+}
+
+/* // main section // */
+
+.main{
+    margin-top: 1rem;
+
+}
+
+.welcome{
+    width: 35%;
+    margin-top: 2rem;
+    margin-left: 25%;
+    padding: 7rem;
+    background-color: rgb(83, 83, 83);
+    box-shadow: 1rem 1rem 5rem rgba(77, 77, 77, 0.774);
+}
+
+.welcome img{
+    width: 10rem;
+    margin-left: 40%;
+}
+
+.welcome h1{
+    text-align: center;
+    color: white;
+    text-shadow: 0.1rem 0.1rem 1rem rgba(255, 255, 255, 0.774);
+}

@@ -1,0 +1,44 @@
+.content {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 0.5rem;
+}
+
+.gallery img {
+    width: 295px;
+    margin: 5px;
+}
+
+@media (max-width :1440px) {
+
+    .gallery img{
+        width: 270px;
+    }
+    
+}
+
+@media (max-width :1024px) {
+
+    .gallery img{
+        width: 180px;
+    }
+    
+}
+@media (max-width :768px) {
+
+    .gallery img{
+        width: 180px;
+    }
+    .gallery{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    
+}

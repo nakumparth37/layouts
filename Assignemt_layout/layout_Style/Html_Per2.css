@@ -1,0 +1,33 @@
+table {
+
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: 23rem;
+    margin-top: 3rem;
+
+  }
+
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  th{
+    text-align: center;
+  }
+  .report_logo{
+    border: 1px solid black;
+  }
+
+  .report_logo  img{
+    width: 150px;
+    padding-right: 9rem;
+    
+  }
+
+  .report_logo p{
+    padding-left: 2rem;
+    font-size: x-large;
+  }
