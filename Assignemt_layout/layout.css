@@ -62,3 +62,20 @@ body{
     color: white;
     text-shadow: 0.1rem 0.1rem 1rem rgba(255, 255, 255, 0.774);
 }
+
+@media(max-width:768px){
+
+    .welcome{
+        margin-left: 20%;
+    }
+    .welcome img{
+        margin-left: 25%;
+    }
+    .nav_bar{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    .nav_bar li{
+        padding: 0.3rem;
+    }
+}

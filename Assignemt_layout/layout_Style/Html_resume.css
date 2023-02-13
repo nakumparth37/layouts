@@ -102,3 +102,24 @@ th {
 tr:nth-child(even) {
     background-color: #4169e13b;
 }
+
+@media (max-width:1440px){
+
+    #personl_info{
+        width: 20rem;
+    }
+
+    #other_info{
+        width: 45rem;
+    }
+}
+
+@media (max-width:1024px){
+    #personl_info{
+        width: 10rem;
+    }
+
+    #other_info{
+        width: 30rem;
+    }
+}

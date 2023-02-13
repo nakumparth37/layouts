@@ -31,3 +31,25 @@ table {
     padding-left: 2rem;
     font-size: x-large;
   }
+
+  @media(max-width:1024px){
+    table{
+      margin-left: 1rem;
+      margin-top: 1rem;
+      width: 75%;
+    }
+    .report_logo img{
+      padding-left: 3.2rem;
+    }
+  }
+
+  @media(max-width:768px){
+    table{
+      margin-left: 5rem;
+      margin-top: 1rem;
+      width: 75%;
+    }
+    .report_logo img{
+      padding-left: 3.2rem;
+    }
+  }

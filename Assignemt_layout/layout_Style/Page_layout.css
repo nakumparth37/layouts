@@ -39,3 +39,33 @@
     margin-left: 30%;
 
 }
+
+@media (max-width:1440px){
+    .side_bar{
+        width: 25%;
+    }
+}
+
+@media(max-width:1024px){
+    .side_bar{
+        width: 30%;
+    }
+    .side_bar ul{
+        margin: 0.2rem;
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width:768px){
+    .main_content{
+        height: 100%;
+        display:grid;
+        margin-top: 1rem;
+    
+    }
+    .side_bar{
+        width: auto;
+        height:auto;
+    }
+
+}
