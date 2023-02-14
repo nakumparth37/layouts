@@ -26,6 +26,13 @@ hr{
     padding: 1rem;
     background-color: rgba(143, 255, 143, 0.644);
     position: absolute;
+    display: none;
 }
 
-#obj 
+.info:target{
+    display: block;
+}
+
+
+
+
