@@ -1,38 +1,127 @@
-.nav{
-    background-color: rgba(255, 185, 185, 0.521);
+.nav {
+    background-color: rgba(87, 87, 87, 0.733);
 }
 
-.nav img{
-    border: 1px solid rgba(155, 155, 155, 0.582);
+.nav img {
+    border: 2px solid rgba(255, 255, 255, 0.993);
     border-radius: 50%;
     width: 114px;
     height: 125px;
     margin: 1rem;
-    margin-left:9rem;
-}
-hr{
-    width: 20rem;
-    border: 1px solid rgba(155, 155, 155, 0.582);
+    margin-left: 9rem;
+    box-shadow: 0.2rem 0.2rem 5rem white;
 }
 
-.nav_info{
+hr {
+    width: 100%;
+    border: 1px solid #ffc107;
+}
+
+::marker {
+    color: #ffc107;
+}
+
+p {
+    font-size: larger;
+}
+
+span {
+    font-weight: bold;
+    color: #ffc107;
+}
+
+h1 {
+    margin-top: 5rem;
+}
+
+.nav_info {
     margin: 0.5rem;
     padding: 1rem;
     margin-left: 9rem;
 }
 
-.info {
-    margin: 2rem;
-    padding: 1rem;
-    background-color: rgba(143, 255, 143, 0.644);
-    position: absolute;
-    display: none;
+.nav_info a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
 }
 
-.info:target{
+.main {
+    background-color: rgba(87, 87, 87, 0.733);
+
+}
+
+.info {
+    margin-top: 0.5rem;
+    padding: 1rem;
+    color: white;
+    display: none;
+    text-align: justify;
+}
+
+.info ul li {
+    list-style: disclosure-closed;
+}
+
+.info:target {
     display: block;
 }
 
+.nav_info a p:hover {
+    color: #ffc107;
+}
 
 
+@media (min-width:768px) {
+    .container {
+        display: flex;
 
+    }
+
+    .nav {
+        width: 21rem;
+        margin-right: 1rem;
+    }
+
+    .nav img {
+        margin-left: 6.9rem;
+    }
+
+    .nav_info {
+        margin-left: 6rem;
+    }
+
+    .info {
+
+        width: 30%rem;
+        height: 10rem;
+        margin-top: 0;
+        height: auto;
+        margin-top: 1rem;
+    }
+
+    .main {
+        width: 25rem;
+        height: 70vh;
+    }
+}
+
+@media (min-width:1024px) {
+    .main {
+        width: 41rem;
+        height: 70vh;
+    }
+
+}
+
+@media (min-width:1440px) {
+    .nav {
+        height: 70vh;
+    }
+
+    .main {
+        width: 66rem;
+
+    }
+
+}
